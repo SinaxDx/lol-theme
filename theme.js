@@ -156,7 +156,7 @@ function accessCuteThemeCSS(value) {
 }
 
 function reloadTheme() {
-   let searchRegEx = /thicc-thighs.de*/;
+   let searchRegEx = /imgur.com/;
    for (var i = 0; i < document.styleSheets.length; i++) {
       if (document.styleSheets[i].href.search(searchRegEx) != -1) {
          document.styleSheets[i].disabled = true;
