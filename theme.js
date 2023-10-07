@@ -68,7 +68,7 @@ const injectSettings = (panel) => {
       UI.Row([
          UI.Link(
             'lol-theme',
-            'https://github.com/PrincessAkira/league-launcher-theme',
+            'https://github.com/SinaxDx/lol-theme',
             () => {
                // why is this here? :wtf:
             },
@@ -79,7 +79,7 @@ const injectSettings = (panel) => {
             if (
                val.match(/^(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|jpeg|png)$/)
             ) {
-               accessCuteThemeCSS(val);
+               accesthemecss(val);
             }
          }),
          UI.Button('Reset background', () => {
@@ -100,7 +100,7 @@ function backgroundCheck() {
    if (checkIfPopulated()) {
       return DataStore.get('background');
    } else {
-      return 'https://thicc-thighs.de/stuff/wallpaper.jpg';
+      return 'https://imgur.com/FcrKFkg';
    }
 }
 
