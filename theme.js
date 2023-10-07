@@ -67,7 +67,7 @@ const injectSettings = (panel) => {
    panel.prepend(
       UI.Row([
          UI.Link(
-            'Cute-Theme',
+            'lol-theme',
             'https://github.com/PrincessAkira/league-launcher-theme',
             () => {
                // why is this here? :wtf:
