@@ -166,7 +166,7 @@ function reloadTheme() {
          .getElementsByTagName('body')[0]
          .insertAdjacentHTML(
             'afterbegin',
-            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
+            '<link rel="stylesheet" href="https://github.com/SinaxDx/lol-theme/blob/main/theme.css" />'
          );
       location.reload();
    }
